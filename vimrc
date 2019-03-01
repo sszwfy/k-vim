@@ -680,6 +680,7 @@ let Tlist_Show_One_File=1    " 只展示一个文件的taglist
 let Tlist_Exit_OnlyWindow=1  " 当taglist是最后以个窗口时自动退出
 let Tlist_Use_Right_Window=1 " 在右边显示taglist窗口
 let Tlist_Sort_Type="name"   " tag按名字排序
+let Tlist_Ctags_Cmd='/usr/bin/ctags'
 
 " let g:tagbar_left=1          " tagbar显示left
 
