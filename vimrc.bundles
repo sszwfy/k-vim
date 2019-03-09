@@ -141,6 +141,7 @@ Plug 'altercation/vim-colors-solarized'
 " 主题 molokai
 Plug 'tomasr/molokai'
 
+" 扩展taglist
 
 " nav
 " nerdtree nerdtreetabs
