@@ -696,3 +696,7 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 set tags+=~/.vim/systags
 
+"系统剪贴板
+nmap <leader>p "+gp
+nmap <leader>y "+y
+
