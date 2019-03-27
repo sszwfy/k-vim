@@ -698,6 +698,6 @@ set tags+=~/.vim/systags
 
 "系统剪贴板
 nmap <leader>p "+gp
-nmap <leader>y "+y
+nmap <leader>y "+yy
 
 
