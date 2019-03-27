@@ -103,6 +103,9 @@ Plug 'terryma/vim-multiple-cursors'
 "leaderF
 Plug 'Yggdroot/LeaderF'
 
+"doxygen
+Plug 'DoxygenToolkit.vim'
+
 " ctrlsf
 " 类似sublimetext的搜索
 " In CtrlSF window:
