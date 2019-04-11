@@ -698,7 +698,6 @@ set tags+=~/.vim/systags
 
 "系统剪贴板
 nmap <leader>p "+gp
-nmap <leader>y "+yy
 
 "doxygen
 let g:DoxygenToolkit_briefTag_funcName = "yes"
