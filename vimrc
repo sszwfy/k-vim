@@ -716,6 +716,13 @@ let g:DoxygenToolkit_classTag = "\\class "
 let g:DoxygenToolkit_authorName = "Qian Gu, guqian110@gmail.com"
 let g:doxygen_enhanced_color = 1
 
+" 屏蔽粘贴多行连续备注
+" Set 'formatoptions' to break comment lines but not other lines,
+" and insert the comment leader when hitting <CR> or using
+" r Automatically insert the current comment leader after hitting
+" set formatoptions=jcroql
+" :set formatoptions-=r formatoptions-=c formatoptions-=o
+
 
 
 
