@@ -511,8 +511,6 @@ vnoremap > >gv
 " y$ -> Y Make Y behave like other capitals
 map Y y$
 
-" 复制选中区到系统剪切板中
-vnoremap <leader>y "+y
 
 " auto jump to end of select
 " vnoremap <silent> y y`]
@@ -698,6 +696,8 @@ set tags+=~/.vim/systags
 
 "系统剪贴板
 nmap <leader>p "+gp
+" 复制选中区到系统剪切板中
+vnoremap <leader>y "+y
 
 "doxygen
 let g:DoxygenToolkit_briefTag_funcName = "yes"
@@ -715,6 +715,9 @@ let g:DoxygenToolkit_blockTag = "\\name "
 let g:DoxygenToolkit_classTag = "\\class "
 let g:DoxygenToolkit_authorName = "Qian Gu, guqian110@gmail.com"
 let g:doxygen_enhanced_color = 1
+
+"you complete me
+"let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py'
 
 " 屏蔽粘贴多行连续备注
 " Set 'formatoptions' to break comment lines but not other lines,
