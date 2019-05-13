@@ -697,7 +697,7 @@ set tags+=~/.vim/systags
 "系统剪贴板
 nmap <leader>p "+gp
 " 复制选中区到系统剪切板中
-vnoremap <leader>y "+y
+nnoremap <leader>y "+y
 
 "doxygen
 let g:DoxygenToolkit_briefTag_funcName = "yes"
@@ -718,6 +718,11 @@ let g:doxygen_enhanced_color = 1
 
 "you complete me
 "let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py'
+nnoremap <leader>gi :YcmCompleter GoToInclude<CR>
+#nnoremap <leader>gim :YcmCompleter GoToImplementation<CR>
+nnoremap <leader>gc :YcmCompleter GoToDeclaration<CR>
+nnoremap <leader>gd :YcmCompleter GoToDefinition<CR>
+nnoremap <leader>gr :YcmCompleter GoToReferences<CR>
 
 " 屏蔽粘贴多行连续备注
 " Set 'formatoptions' to break comment lines but not other lines,
