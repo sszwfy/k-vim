@@ -733,6 +733,6 @@ nnoremap <leader>gr :YcmCompleter GoToReferences<CR>
 " :set formatoptions-=r formatoptions-=c formatoptions-=o
 "
 
-nmap w=  :vertical resize +3<CR>
-nmap w-  :vertical resize -3<CR>
+nmap w=  :resize +3<CR>
+nmap    w-  :resize -3<CR>
 
