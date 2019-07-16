@@ -725,6 +725,9 @@ nnoremap <leader>gc :YcmCompleter GoToDeclaration<CR>
 nnoremap <leader>gd :YcmCompleter GoToDefinition<CR>
 nnoremap <leader>gr :YcmCompleter GoToReferences<CR>
 
+"jjjjjleaderfFie
+nnoremap <leader>f :LeaderfFile<CR>
+
 " 屏蔽粘贴多行连续备注
 " Set 'formatoptions' to break comment lines but not other lines,
 " and insert the comment leader when hitting <CR> or using
