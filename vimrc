@@ -464,17 +464,17 @@ noremap <right> :bn<CR>
 " http://stackoverflow.com/questions/2005214/switching-to-a-particular-tab-in-vim
 
 " tab切换
-map <leader>th :tabfirst<cr>
-map <leader>tl :tablast<cr>
-
-map <leader>tj :tabnext<cr>
-map <leader>tk :tabprev<cr>
-map <leader>tn :tabnext<cr>
-map <leader>tp :tabprev<cr>
-
-map <leader>te :tabedit<cr>
-map <leader>td :tabclose<cr>
-map <leader>tm :tabm<cr>
+"map <leader>th :tabfirst<cr>
+"map <leader>tl :tablast<cr>
+"
+"map <leader>tj :tabnext<cr>
+"map <leader>tk :tabprev<cr>
+"map <leader>tn :tabnext<cr>
+"map <leader>tp :tabprev<cr>
+"
+"map <leader>te :tabedit<cr>
+"map <leader>td :tabclose<cr>
+"map <leader>tm :tabm<cr>
 
 " normal模式下切换到确切的tab
 noremap <leader>1 1gt
@@ -579,14 +579,14 @@ au BufWinEnter *.php set mps-=<:>
 
 
 
-" 保存python文件时删除多余空格
-fun! <SID>StripTrailingWhitespaces()
-    let l = line(".")
-    let c = col(".")
-    %s/\s\+$//e
-    call cursor(l, c)
-endfun
-autocmd FileType c,cpp,java,go,php,javascript,puppet,python,rust,twig,xml,yml,perl autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
+" 保存python文件时删除多余空格 
+"fun! <SID>StripTrailingWhitespaces()
+"    let l = line(".")
+"    let c = col(".")
+"    %s/\s\+$//e
+"    call cursor(l, c)
+"endfun
+"autocmd FileType c,cpp,java,go,php,javascript,puppet,python,rust,twig,xml,yml,perl autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
 
 
 " 定义函数AutoSetFileHead，自动插入文件头
@@ -726,7 +726,8 @@ nnoremap <leader>gd :YcmCompleter GoToDefinition<CR>
 nnoremap <leader>gr :YcmCompleter GoToReferences<CR>
 
 "jjjjjleaderfFie
-nnoremap <leader>f :LeaderfFile<CR>
+nnoremap <leader>ff :Leaderf file --stayOpen<CR>
+nnoremap <leader>ft :Leaderf tag --stayOpen<CR>
 
 " 屏蔽粘贴多行连续备注
 " Set 'formatoptions' to break comment lines but not other lines,
