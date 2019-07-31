@@ -726,7 +726,7 @@ nnoremap <leader>gd :YcmCompleter GoToDefinition<CR>
 nnoremap <leader>gr :YcmCompleter GoToReferences<CR>
 
 "jjjjjleaderfFie
-nnoremap <leader>ff :Leaderf file --stayOpen<CR>
+nnoremap <leader>ff :Leaderf file<CR>
 nnoremap <leader>ft :Leaderf tag --stayOpen<CR>
 
 " 屏蔽粘贴多行连续备注
