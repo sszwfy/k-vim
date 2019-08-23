@@ -739,4 +739,6 @@ nnoremap <leader>ft :Leaderf tag --stayOpen<CR>
 
 nmap =  :vertical resize +3<CR>
 nmap -  :vertical resize -3<CR>
+set autoindent noexpandtab tabstop=4 shiftwidth=4
+
 
