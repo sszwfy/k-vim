@@ -739,6 +739,8 @@ nnoremap <leader>ft :Leaderf tag --stayOpen<CR>
 
 nmap =  :vertical resize +3<CR>
 nmap -  :vertical resize -3<CR>
+
+" 采用Tab作为Tab,宽度为4
 set autoindent noexpandtab tabstop=4 shiftwidth=4
 
 
