@@ -454,9 +454,12 @@ autocmd BufNewFile,BufRead *.py inoremap # X<c-h>#
 " 切换前后buffer
 nnoremap [b :bprevious<cr>
 nnoremap ]b :bnext<cr>
-" 使用方向键切换buffer
-noremap <left> :bp<CR>
-noremap <right> :bn<CR>
+
+
+noremap <Left> :vertical resize -3<CR>
+noremap <Right> :vertical resize +3<CR>
+noremap <Up> :resize +3<CR>
+noremap <Down> :resize -3<CR>
 
 
 " tab 操作
@@ -737,10 +740,11 @@ nnoremap <leader>ft :Leaderf tag --stayOpen<CR>
 " :set formatoptions-=r formatoptions-=c formatoptions-=o
 "
 
-nmap =  :vertical resize +3<CR>
-nmap -  :vertical resize -3<CR>
+"nmap =  :vertical resize +3<CR>
+"nmap -  :vertical resize -3<CR>
 
 " 采用Tab作为Tab,宽度为4
 set autoindent noexpandtab tabstop=4 shiftwidth=4
+set shortmess+=c
 
 
