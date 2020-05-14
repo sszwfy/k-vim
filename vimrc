@@ -721,6 +721,7 @@ let g:doxygen_enhanced_color = 1
 
 "you complete me
 "let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py'
+let g:ycm_max_diagnostics_to_display = 0
 nnoremap <leader>gi :YcmCompleter GoToInclude<CR>
 nnoremap <leader>j :YcmCompleter GoTo<CR>
 "nnoremap <leader>gim :YcmCompleter GoToImplementation<CR>
