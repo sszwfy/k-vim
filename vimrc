@@ -658,7 +658,8 @@ endif
 set background=dark
 set t_Co=256
 
-colorscheme solarized
+"colorscheme solarized
+colorscheme gruvbox
 " colorscheme molokai
 
 
@@ -698,7 +699,8 @@ let g:ctrlp_cmd = 'CtrlP'
 set tags+=~/.vim/systags
 
 "系统剪贴板
-nmap <leader>p "+gp
+noremap P "0p
+"nmap <leader>p "0p
 " 复制选中区到系统剪切板中
 nnoremap <leader>y "+y
 
