@@ -582,7 +582,7 @@ au BufWinEnter *.php set mps-=<:>
 
 
 
-" 保存python文件时删除多余空格 
+" 保存python文件时删除多余空格
 "fun! <SID>StripTrailingWhitespaces()
 "    let l = line(".")
 "    let c = col(".")
@@ -749,4 +749,7 @@ nnoremap <leader>ft :Leaderf tag --stayOpen<CR>
 set autoindent noexpandtab tabstop=4 shiftwidth=4
 set shortmess+=c
 
+" ctrlsf
+" 类似sublimetext的搜索
+ let g:ctrlsf_ackprg='ag'
 
