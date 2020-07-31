@@ -751,5 +751,9 @@ set shortmess+=c
 
 " ctrlsf
 " 类似sublimetext的搜索
- let g:ctrlsf_ackprg='ag'
+let g:ctrlsf_ackprg='ag'
+let g:ctrlsf_mapping = {
+			\
+			\ }
+let g:ctrlsf_position = 'bottom'
 
